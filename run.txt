@@ -1,0 +1,39 @@
+运行
+
+main.py
+ntp.py <- uav对时
+ugv_broadcaster.py
+visualization.py/visualization3d.py
+visualizationCamera.py
+
+
+参数
+
+configs.py
+
+
+复现
+
+main.py
+reproduce.py [ SEND_UDP_DIRECTLY:=True ]
+visualization.py/visualization3d.py
+visualizationCamera.py
+
+or
+
+reproduce.py [ SEND_UDP_DIRECTLY:=False ]
+visualization.py/visualization3d.py
+visualizationCamera.py
+
+
+延迟
+
+delayMeasure.py
+
+
+工具类
+
+utilities.py
+base.py
+server.py
+.jsonMessage
